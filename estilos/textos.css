@@ -1,0 +1,250 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+
+    --cor1: #49114b;
+    --cor2: #7c1d80;
+    --cor3: #8C8C8C;
+    --cor4: #BFBFBF;
+    --cor5: #D9D9D9;
+    --fonte1: Arial, Helvetica, sans-serif;
+    --fonte2: 'Bree Serif', serif;
+    --font03: 'Sriracha', cursive;
+    
+}
+
+body{
+    font-family: var(--fonte1);
+    background-color: darkgray;
+}
+
+header{
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0px 10px 10px  #202020fb;
+}
+
+header h1{
+
+    font-family: var(--fonte2);
+    font-size: 3em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-shadow: 10px 10px 10px  #131212de;
+    
+
+}
+
+header p{
+    margin: auto;
+    width: 50vw;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 2px  #0f0f0f;
+}
+
+header nav{
+
+    margin: auto;
+    width: 400px;
+    padding: 5px;
+    transition-duration: .7s;
+    box-shadow: 0px 10px 7px  #131212de;
+    border-radius: 5px;
+
+}
+
+header nav:hover a{
+
+    filter: blur(10px);
+
+}
+
+header nav a{
+    
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    transition-duration: .7s;
+ 
+
+}
+
+header nav a:hover{
+
+    background-color: var(--cor4);
+    color: var(--cor1);
+    filter: blur(0px);
+    border-radius: 5px;
+    font-size: 1.2em;
+
+
+}
+
+
+
+header nav a#p{
+   background-color: var(--cor2);
+   border-radius: 5px 5px 0px 0px;
+   padding-bottom: 16px;
+
+}
+
+
+section{
+    font-family: var(--font03);
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 3vw;
+}
+
+main section.branco{
+
+    background-color: var(--cor5);
+
+}
+main section.imagen{
+
+    box-shadow: inset 0px 10px 10px  #131212de;
+
+}
+
+main section.imagen#img1{
+    color: var(--cor5);
+    background-image: url(../imagens/poesia1.jpeg);
+    text-shadow:2px 2px 3px  #070707 ;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+main section.imagen#img2{
+    color: var(--cor5);
+    background-image: url(../imagens/poesia2.jpeg);
+    text-shadow:2px 2px 3px  #070707 ;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+main section.imagen#img3{
+    color: var(--cor5);
+    background-image: url(../imagens/poesia3.jpeg);
+    text-shadow:2px 2px 3px  #070707 ;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+main section.imagen#img4{
+    color: var(--cor5);
+    background-image: url(../imagens/poesia4.jpeg);
+    text-shadow:2px 2px 3px  #070707 ;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+main section.imagen#img5{
+    color: var(--cor5);
+    background-image: url(../imagens/poesia5.jpeg);
+    text-shadow:2px 2px 3px  #070707 ;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+main section.imagen#img6{
+    color: var(--cor5);
+    background-image: url(../imagens/poesia6.jpeg);
+    text-shadow:2px 2px 3px  #070707 ;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+main section.imagen#img7{
+    color: var(--cor5);
+    background-image: url(../imagens/poesia7.jpg.jpg);
+    text-shadow:2px 2px 3px  #070707 ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+main section.imagen#img8{
+    color: var(--cor5);
+    background-image: url(../imagens/poesia8.jpeg);
+    text-shadow:2px 2px 3px  #070707 ;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+footer{
+
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: var(--cor1);
+    color: var(--cor5);
+    
+}
+footer p{
+    font-style: italic;
+    padding-top: 20px;
+}
+
+
+
+footer p> a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--cor3);
+    transition-duration: .5s;
+}
+
+footer p> a:hover{
+    
+    padding: 5px;
+    background-color: var(--cor5);
+    border-radius: 3px;
+    color: var(--cor1);
+    
+
+}
+
+footer > a{
+
+    background-color: var(--cor2);
+    color: var(--cor5);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow:0px 10px 6px  #1b1b1b ;
+    transition-duration: .7s;
+
+}
+
+footer > a:hover{
+    background-color: var(--cor4);
+    color: var(--cor1);
+}
