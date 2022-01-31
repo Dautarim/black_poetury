@@ -107,3 +107,12 @@ header nav a#p{
 main{
     padding: 20px;
 }
+
+section{
+    margin: auto;
+    width: 90vw;
+}
+
+section h3{
+    padding: 10px;
+}
