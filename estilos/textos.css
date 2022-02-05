@@ -58,7 +58,7 @@ header p{
 header nav{
 
     margin: auto;
-    width: 400px;
+    width: 300px;
     padding: 5px;
     transition-duration: .7s;
     box-shadow: 0px 10px 7px  #131212de;
@@ -247,4 +247,22 @@ footer > a{
 footer > a:hover{
     background-color: var(--cor4);
     color: var(--cor1);
+}
+
+a#top{
+    color: white;
+    text-decoration: none;
+    background-color: var(--cor1);
+    padding: 15px;
+    position: fixed;
+    border-radius: 20px;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.842);
+    transition-duration: .4s;
+   
+}
+
+a#top:hover{
+    background-color: var(--cor2);
 }
