@@ -12,10 +12,10 @@
 
 :root{
 
-    --cor1: #262626;
-    --cor2: #595959;
-    --cor3: #8C8C8C;
-    --cor4: #BFBFBF;
+    --cor1: #03810a;
+    --cor2: #4cc927;
+    --cor3: #89e76d;
+    --cor4: #b5f7ac;
     --cor5: #D9D9D9;
     --fonte1: Arial, Helvetica, sans-serif;
     --fonte2: 'Bree Serif', serif;
@@ -30,7 +30,7 @@ body{
 
 header{
     background-color: var(--cor1);
-    color: white;
+    color: var(--cor5);
     text-align: center;
     padding: 20px;
     padding-bottom: 10px;
@@ -38,7 +38,7 @@ header{
 }
 
 header h1{
-
+    color: var(--cor5);
     font-family: var(--fonte2);
     font-size: 3em;
     margin-top: 50px;
@@ -49,6 +49,7 @@ header h1{
 }
 
 header p{
+    color: var(--cor5);
     margin: auto;
     width: 50vw;
     margin-bottom: 30px;
@@ -102,99 +103,53 @@ header nav a#p{
 
 }
 
-
-section{
-    font-family: var(--font03);
-    padding-left: 30px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    font-size: 3vw;
+/* Estilos CSS aqui */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
 }
 
-main section.branco{
-
-    background-color: var(--cor5);
-
-}
-main section.imagen{
-
-    box-shadow: inset 0px 10px 10px  #131212de;
-
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-main section.imagen#img1{
-    color: var(--cor5);
-    background-image: url(../imagens/poesia1.jpeg);
-    text-shadow:2px 2px 3px  #070707 ;
-    background-size: cover;
-    background-attachment: fixed;
-    
-
+h1, h2 {
+    font-weight: 600;
+    color: #333;
 }
 
-main section.imagen#img2{
-    color: var(--cor5);
-    background-image: url(../imagens/poesia2.jpeg);
-    text-shadow:2px 2px 3px  #070707 ;
-    background-size: cover;
-    background-attachment: fixed;
-
+p {
+    color: #555;
+    line-height: 1.6;
 }
 
-main section.imagen#img3{
-    color: var(--cor5);
-    background-image: url(../imagens/poesia3.jpeg);
-    text-shadow:2px 2px 3px  #070707 ;
-    background-size: cover;
-    background-attachment: fixed;
-
+img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
-main section.imagen#img4{
-    color: var(--cor5);
-    background-image: url(../imagens/poesia4.jpeg);
-    text-shadow:2px 2px 3px  #070707 ;
-    background-size: cover;
-    background-attachment: fixed;
-
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #0078d4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
-main section.imagen#img5{
-    color: var(--cor5);
-    background-image: url(../imagens/poesia5.jpeg);
-    text-shadow:2px 2px 3px  #070707 ;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-
-}
-
-main section.imagen#img6{
-    color: var(--cor5);
-    background-image: url(../imagens/poesia6.jpeg);
-    text-shadow:2px 2px 3px  #070707 ;
-    background-size: cover;
-    background-attachment: fixed;
-
-}
-
-main section.imagen#img7{
-    color: var(--cor5);
-    background-image: url(../imagens/poesia7.jpg.jpg);
-    text-shadow:2px 2px 3px  #070707 ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
-}
-
-main section.imagen#img8{
-    color: var(--cor5);
-    background-image: url(../imagens/poesia8.jpeg);
-    text-shadow:2px 2px 3px  #070707 ;
-    background-size: cover;
-    background-attachment: fixed;
-
+.btn:hover {
+    background-color: #005a9e;
 }
 
 
